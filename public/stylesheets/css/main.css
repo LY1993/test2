@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+/*头部第一部分*/
+.top{ line-height:32px; border:#EEEEEE 1px solid; color:#666666;}
+._left{ float:left; background:url(../img/1_06.jpg)left center no-repeat; }
+._left a{ padding-left:20px}
+._left a:hover{ text-decoration:underline; color:#F00;}
+._right a:hover{ text-decoration:underline; color:#F00;}
+._right{ float:right; font-size:12px;}
+
+
+/*头部第二部分，logo*/
+.logo{ background-color:#1D7AD9; height:85px; overflow:hidden;}
+.logo_img{ margin:8px 22px; width:154px; height:70px;}
+
+/*头部第二部分，搜索框*/
+.search{ margin-top:23px; margin-left:160px; }
+#i_text{ width:360px; padding:11px 5px 10px; line-height:14px;}
+#i_btn{ width:69px; height:36px; background-color:#FF8C00; color:#fff; margin-left:0; font-size:14px;}
+
+/*头部第二部分，购物车*/
+.car{ background-color:#FF8C00; margin-top:23px; margin-left:30px;}
+.car_l{ width:87px; height:35px; margin-left:10px; background:url(../../images/img/i_car.jpg) left center no-repeat; display:inline;}
+.car_l span{ padding-left:35px;line-height:35px;color:#fff; font-family:"微软雅黑"; font-size:14px; border-right:#E27A00 1px solid; padding-right:3px;}
+.car_r{ width:58px; height:24px;}
+.car_r span{ line-height:35px;color:#fff; font-family:"微软雅黑"; font-size:14px; padding-left:16px}
+.car_r img{ padding-left:5px}
+
+/*头部第三部分*/
+.bottom{ background:#1369C0; height:35px;}
+.nav{ width:189px; height:35px; font-size:16px; line-height:35px;}
+.bottom a{ color:#fff}
+.nav_bar li{ float:left; width:100px; line-height:35px; text-align:center; font-size:16px}
+.nav_bar li:hover{ background:#4593FD}
+
+
+/*左侧nav*/
+.nav_l{ overflow:hidden;}
+.nav_l li{ width:188px; height:64px; background-color:#4593FD; border-bottom:#5AA1FE 1px solid;}
+#nav_l{ background:#fff; border-bottom:1px solid #4593FD; overflow:hidden;}
+#nav_l a{ color:#000;}
+.nav_l li h3{ padding-left:11px; line-height:33px;}
+.nav_l a{ font-size:14px;}
+.nav_l a span{ background:url(../../images/img/ty_1.jpg) no-repeat; font-size:12px; font-family:"宋体"; width:46px; height:18px; display:inline-block; line-height:18px; text-indent:5px;}
+.nav_l p{ padding-left:11px; line-height:28px;}
+
+
+/*中部*/
+.container{ height:400px; position:relative;}
+
+/*中部content*/
+.content{ width:570px; height:381px; margin-left:189px; border:1px solid #C1D8F7;}
+.c_c{}
+.c_c li{ width:530px; border-bottom:#E5E5E5 1px solid; margin:14px auto; }
+.sp_l{ font-size:14px; font-family:"宋体"; color:#4B88DA; font-weight:bold;}
+.sp_r a{ font-size:14px; color:#656565; padding-left:15px; line-height:23px;}
+
+/*中部content下面*/
+.c_bo{ width:535; height:45px; margin:10px auto;}
+.c_bo span{ width:110px; height:26px; background:#2785E6; display:inline-block; margin-left:20px; margin-top:5px;}
+.c_bo span a{ line-height:26px; color:#fff; font-size:12px; padding:0 5px;}
+.c_l{ margin-right:811px; position:absolute; top:326px; left:0;}
+.c_l img{ width:188px;}
+
+/*中部right*/
+.box{ width:239px; height:327px;}
+#myFocus{width:239px; height:315px;}
+
+/*详情部content*/
+.l_l{ width:190px; height:400px; border-bottom:1px solid #FFF;}
+
+
+.l_r{ width:810px; height:399px; border-bottom:1px solid #FF7201; }
+.l_r_t{ width:100%; height:281px;}
+.l_r_b{ width:100%; height:116px;}
+/*右边详情上*/
+.s_t{ width:200px; float:left; height:100%;  border:1px solid #E5E5E5;}
+.s_t div{ padding-left:25px; padding-top:54px;}
+.s_t h3{ font-size:16px; font-family:"微软雅黑"; padding-left:25px; line-height:34px;}
+.s_t p{ font-size:14px; color:#FF7300; text-align:center}
+
+/*右边详情下*/
+
+.s_b{ width:200px; float:left; height:100%;  border-right:1px solid #E5E5E5;border-left:1px solid #E5E5E5;}
+.s_b div{ float:left; padding-top:17px; padding-left:30px;}
+.s_b h3{ font-family:"新宋体"; font-size:12px; padding-top:30px; line-height:20px}
+.s_b p{ font-family:"微软雅黑"; font-size:16px;}
+
+
+/*页尾*/
+.footer{ height:223px; background:#D4D4D4; margin-top:40px;}
+.f_t{ width:718px; height:41px; color:#000; font-family:"新宋体"; margin:0 auto; padding-top:54px; font-size:12px;}
+.f_t div{text-align:center;}
+.f_t a{ line-height:25px;}
+
+.f_b{ margin:35px auto; text-align:center;}
+.f_b img{ padding-left:25px;}
+
+

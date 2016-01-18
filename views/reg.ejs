@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	<%= title%></title>
+<% include bootstrapcss %>
+<style type="text/css">
+		body{
+			padding-top: 60px;
+			padding-bottom: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar navbar-fixed-top navbar-inverse">	
+		<div class="navbar-header">	
+			<div class="container">	
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="/">microblog</a>
+			    </div>
+				<div class="nav-collagse">	
+					<ul class="nav navbar-nav">
+						<li role="presentation" class="ative"><a href="/">首页</a></li>
+						<li role="presentation"><a href="/login">登入</a></li>
+						<li role="presentation"><a href="/reg">注册</a></li>
+					</ul>
+				</div>	
+			</div>	
+		</div>	
+	</div>
+
+	<div id="container" class="container">
+	
+<form class="form-horizontal" method="post">
+	<fieldset>
+		<legend>用户注册</legend>
+		<div class="form-group">
+			<label class="control-label" for="username">用户名</label>
+			<div class="controls">
+				<input name="username" id="username" class="input-xlarge">
+				<p class="help-block">输入您的用户名</p>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label" for="password">口令</label>
+			<div class="controls">
+				<input type="password" name="password" id="password" class="input-xlarge">
+			</div>
+
+		</div>
+		<div class="form-group">
+			<label class="control-label" for="password-repeat">重复口令</label>
+			<div class="controls">
+				<input type="password" name="password-repeat" id="password-repeat" class="input-xlarge">
+			</div>
+
+		</div>
+
+		<div class="form-actions">
+			<button type="submit" class="btn btn-default">注册</button>
+		</div>
+	</fieldset>
+</form>
+		<hr/>
+		<footer>
+			<p class="col-md-offset-8"><a href="http://www.byvoid.com" target="_blank">BYVoid</a></p>
+		</footer>
+		<div>
+		<button id="btn" onclick="text()">测试是否可用</button>
+		<span id="sp"></span>
+		</div>
+	</div>
+</body>
+</html>
